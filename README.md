@@ -37,6 +37,18 @@ I've made lots of feature requests of funnyplaying and they've implemented at le
 * ~~faster charging~~ Implemented with v1.1 hardware
 * OLED Screen 
 
+### Firmware-only vs. hardware-dependent
+
+Of everything above, only the pixel grid modes can be delivered in firmware. The rest are physically impossible on the shipped board — no firmware update will ever add them; they require a hardware revision:
+
+* **Possible in firmware:** More pixel grid modes (pure FPGA scaling logic; Funnyplaying has hinted at it for a future FW revision).
+* **Requires new hardware — will never come via an update:**
+  * **SD Card support** (flashing flashcarts, system updates, save states) — there is no SD slot on the PCB.
+  * **Game Boy Advance support** — the cartridge slot is GBC-height only; GBA carts are half as tall and cannot fit, and there is no GBA core in the FPGA.
+  * **IR functionality** — planned from the start, but several retail PCB revisions shipped without the IR hardware. Any board lacking it cannot gain IR.
+  * **AA battery support** — the board only accepts the included Li-ion pack (USB-C charging).
+  * **OLED screen** — a different panel; the current IPS also caps the clock adjustment at x1.25.
+
 Funnyplaying has mentioned some of these features in a way that sounds like they're trying to add to the next FW revision (pixel grid modes). From the inception of the device, Funnyplaying has planned IR function but since several revisions of retail boards have shipped without the requisite hardware, I wouldn't hold my breath. I'd treat the rest of these features like that too. Other features they want to add not just to the device but to their backlight kits too (like LUTs) and I expect them to show up there first. 
 
 In the short term, I expect two re-releases of this device, one in DMG form-factor and another in MGB form-factor. The internal hardware, support, and features will be identical to this version, only the shape of the boards will be different for install in the respective shells. Likely the devices will use the same firmware as well. 
