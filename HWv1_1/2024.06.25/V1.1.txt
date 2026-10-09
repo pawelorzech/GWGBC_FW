@@ -1,4 +1,4 @@
-V1.1版本 240625
+V1.10版本 240625
 1. 修复了V1.09的问题
 2. 修复了星之卡比音量越来越小的问题
 3. 某些卡带花屏
@@ -8,7 +8,7 @@ Pokemon Puzzle Challange 原始卡带 花屏
 已知问题
 MidnightTrace CART V2 运行宝可梦出错，可以暂时使用原始BIOS的V1.1固件
 
-V1.1 version 240625
+V1.10 version 240625
 1. Fixed issues with V1.09
 2. Fixed an issue where the volume of Kirby Tilt ‘n’ Tumble was getting smaller
 3. Some cartridges come with Display exception

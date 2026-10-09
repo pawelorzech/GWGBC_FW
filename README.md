@@ -10,9 +10,11 @@ Please [reach out to funnyplaying directly](https://funnyplaying.com/pages/conta
 
 To proceed to firmware files, select the image based on the hardware you have (below). Note the version number in the top right corner of the device PCB. 
 
-| [<img src="./media/v1.0_Front.jpg" width="350" />](HWv1_0/) | [<img src="./media/v1.1_Front.jpg" width="350" />](HWv1_1/) |
-| :---: | :---: |
-| [HW v1.0](HWv1_0/) | [HW v1.1 and newer](HWv1_1/) |
+| [<img src="./media/v1.0_Front.jpg" width="350" />](HWv1_0/) | [<img src="./media/v1.1_Front.jpg" width="350" />](HWv1_1/) | [<img src="./media/v1.11_Front.jpg" width="350" />](HWv1_1/) |
+| :---: | :---: | :---: |
+| [HW v1.0](HWv1_0/) | [HW v1.1 and newer](HWv1_1/) | [HW v1.11](HWv1_1/) |
+
+> Hardware revisions v1.1, v1.11, v1.12, and v1.13 all use the same firmware in [`HWv1_1/`](HWv1_1/). Pick your board by the version number in the top right corner of the PCB.
 
 Overview of the device itself via my video on the v1.1 hardware:
 

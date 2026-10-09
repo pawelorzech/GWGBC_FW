@@ -3,7 +3,7 @@
 > [!CAUTION]
 > THIS SECTION OF THE REPOSITORY IS ONLY FOR V1.1 HARDWARE. If you have have V1.0 or older, this firmware will NOT work on your device. 
 
-[New v1.14 firmware!](2025.02.17/patched_fw) for v1.1 hardware 
+[New v1.14 firmware!](2025.02.17) for v1.1 hardware ([alternate boot screen version](2025.02.17/patched_fw)) 
 
 [![All Aftermarket Game Boy Color -- The Funnyplaying FPGA GBC (FP GBC HW v1.1)](https://img.youtube.com/vi/YM7wYx_SsRY/0.jpg)](https://www.youtube.com/watch?v=YM7wYx_SsRY)
 
@@ -29,7 +29,7 @@ New on v1.1 (compared to v1.0)
  
 ## Updating
 
-Instructions on this process in video linked above; [skip to the thirty nine minute mark.](https://youtu.be/YM7wYx_SsRY&t=2341)
+Instructions on this process in video linked above; [skip to the thirty nine minute mark.](https://youtu.be/YM7wYx_SsRY?t=2341)
 
 To update: 
 * On your Windows or mac PC, download the firmware "update.bin" file from this repository or funnyplaying's google drive links
@@ -87,7 +87,7 @@ Known Issue
 >     Grandia - Parallel Trippers (J) Game Display exception
 >     Pokemon Puzzle Challange Original cassette Display exception
 * I have included a [version with a different boot screen,](2024.06.25/patched_fw) for a different aesthetic. You may find better compatibility with this version.
-* Also included is my internal test version with patched boot logo. I'm unsure what's different with this release compared to the final. 
+* Also included is my [internal test version with patched boot logo.](2024.06.25/internal_test_version_patched) I'm unsure what's different with this release compared to the final. 
 
 Known Issue
 > MidnightTrace CART V2 failed to run Pokemon, you can temporarily use the V1.1 firmware of the original BIOS

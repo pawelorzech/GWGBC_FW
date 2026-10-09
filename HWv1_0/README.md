@@ -55,11 +55,6 @@ I don't have proper change logs for these updates. I only have context clues fro
 * Graphical corruption on first boot[^2]
 * Latest test version.
 
-### Unknown Build
-* Version 0.9 in the menu
-* Initial firmware on v1.1 hardware revisions
-* Unknown changes
-
 ### [1117](1117)
 * Version 0.89 in the menu
 * Fixed backlight management and controls

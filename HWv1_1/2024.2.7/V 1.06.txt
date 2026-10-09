@@ -10,7 +10,7 @@
 
 
 
-2024.2.7-1.02 version update instructions:
+2024.2.7-1.06 version update instructions:
 
 1. Adjust the minimum volume size
 
